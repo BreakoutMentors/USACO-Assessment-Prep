@@ -17,7 +17,7 @@ Most of the problems you'll need to manipulate strings, especially since the inp
 - Split
 
 ## Input and Output
-You will create your own file for each individual problem and run the test inputs. 
+You will create your own file for each individual problem and run the test inputs. Here are some examples to get started:
 
 **Python**
 ```python
@@ -47,4 +47,6 @@ public class Solution {
 When you run the program using Eclipse, you can paste the input into the console and hit enter.
 
 **C++**
+```cpp
 
+```
