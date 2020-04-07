@@ -48,5 +48,12 @@ When you run the program using Eclipse, you can paste the input into the console
 
 **C++**
 ```cpp
-
+#include <iostream>
+using namespace std;
+int main() {
+  int a, b;
+  cin >> a >> b; //read input from stdin
+  cout << a + b << "\n"; //prints a + b to stdout
+  return 0;
+}
 ```
