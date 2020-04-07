@@ -19,7 +19,7 @@ Most of the problems you'll need to manipulate strings, especially since the inp
 ## Input and Output
 You will create your own file for each individual problem and run the test inputs. 
 
-Python:
+**Python**
 ```python
 import sys
 line = sys.stdin.readline()
@@ -27,7 +27,12 @@ sys.stdout.write(str(len(line))) #write a string, not an int
 sys.stdout.write("\n") #new line character
 ```
 
-Java:
+If you save the input as a txt file, you can run it like this:
+```
+python water.py < water-input.txt 
+```
+
+**Java**
 ```java
 import java.util.Scanner;
 public class Solution { 
@@ -39,3 +44,7 @@ public class Solution {
    }
 }
 ```
+When you run the program using Eclipse, you can paste the input into the console and hit enter.
+
+**C++**
+
