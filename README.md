@@ -23,6 +23,18 @@ Python:
 ```python
 import sys
 line = sys.stdin.readline()
-sys.stdout.write(str(len(line))) #make sure to write a string, not an int
+sys.stdout.write(str(len(line))) #write a string, not an int
 sys.stdout.write("\n") #new line character
+```
+
+Java:
+```java
+import java.util.Scanner;
+public class Solution { 
+   public static void main(String[] args) { 
+
+		 Scanner sc = new Scanner(System.in); 
+     
+   }
+}
 ```
