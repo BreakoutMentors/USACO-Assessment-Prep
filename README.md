@@ -13,6 +13,8 @@ Most of the problems you'll need to manipulate strings, especially since the inp
 - Length
 - Substring
 - Access a certain character index
+
+Useful but not necessary:
 - Search / Find / IndexOf
 - Split
 
@@ -27,18 +29,15 @@ sys.stdout.write(str(len(line))) #write a string, not an int
 sys.stdout.write("\n") #new line character
 ```
 
-If you save the input as a txt file, you can run it like this:
-```
-python water.py < water-input.txt 
-```
-
 **Java**
 ```java
 import java.util.Scanner;
 public class Solution { 
    public static void main(String[] args) { 
 	Scanner sc = new Scanner(System.in); 
-	String line = sc.next();
+	int num = sc.nextInt(); //read in the next element as an int
+	String word = sc.next(); //read in the next element as a string
+	String line = sc.nextLine(); //read in the next whole line
 	System.out.println(line.length());
 	sc.close();
    }
